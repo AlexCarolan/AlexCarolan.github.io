@@ -20,7 +20,7 @@ canvas {
   display: table;
   width: 100%;
   height: auto;
-  background-color: #000;
+  background-color: #034078;
 }
 
 .header {
@@ -53,13 +53,12 @@ canvas {
   text-transform: uppercase;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
+h1 {
+  font-size: 8vw;
+}
+
+h3 {
+  font-size: 5vw;
 }
 
 .text-faded {
@@ -319,8 +318,8 @@ h6 {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 footer.footer .social-link {
@@ -335,7 +334,7 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-  background-color: #023e8a;
+  background-color: #23272b;
   text-decoration: none;
 }
 
