@@ -21,10 +21,10 @@ canvas {
   width: 100%;
   height: auto;
   background-color: #034078;
+  z-index: -1;
 }
 
 .header {
-  z-index: 3;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
 }
@@ -53,12 +53,21 @@ canvas {
   text-transform: uppercase;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
 h1 {
-  font-size: 8vw;
+  font-size: 7vmax;
 }
 
 h3 {
-  font-size: 5vw;
+  font-size: 2.5vmax;
 }
 
 .text-faded {
